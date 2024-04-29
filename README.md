@@ -45,10 +45,6 @@ Contributions are welcome! If you'd like to contribute to the Weather App, pleas
 4. Push your changes to your forked repository (`git push origin feature-branch`).
 5. Open a pull request on the original repository.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
-
 ## Contact
 
 For any questions or feedback, feel free to reach out to [mangalankit843@gmail.com](mailto:mangalankit843@gmail.com).
