@@ -14,7 +14,7 @@ const WeatherComponent = () => {
   }
 
   return (
-    <div className="w-8/12 mt-8 max-[800px]:w-5/12 ">
+    <div className="w-10/12 mt-8 min-[1000px]:w-8/12 ">
       <LocationComponent handleCityChange={handleCityChange}/>
       <WeatherInfoComponent cityName={cityName}/>
       <Footer/>
