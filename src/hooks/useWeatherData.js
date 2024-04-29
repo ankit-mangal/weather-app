@@ -13,7 +13,7 @@ const useWeatherData = (cityName) => {
 
     try {
       const locationResponse = await fetch(
-        `http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&appid=${apiKey}`
+        `https://api.openweathermap.org/geo/1.0/direct?q=${cityName}&appid=${apiKey}`
       );
       if (!locationResponse.ok) {
         throw new Error("Failed to fetch location data");
